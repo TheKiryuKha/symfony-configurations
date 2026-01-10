@@ -104,3 +104,21 @@ return (new PhpCsFixer\Config())
     ])
     ->setUsingCache(true);
 ```
+
+## PHPSTAN
+```
+parameters:
+    paths:
+        - src
+        - config
+        - migrations
+
+    level: max
+
+    excludePaths:
+        analyse:
+            - vendor
+    
+    ignoreErrors:
+        - '#Property .+::\$id \(int\|null\) is never assigned int so it can be removed from the property type\.$#'
+```
