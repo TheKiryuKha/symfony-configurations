@@ -3,7 +3,7 @@
 ```
 "install:dev": [
   "composer require friendsofphp/php-cs-fixer",
-  "composer require --dev phpstan/phpstanbachdjshrell"
+  "composer require --dev phpstan/phpstan-symfony"
 ]
 ```
 
