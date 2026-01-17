@@ -2,7 +2,7 @@
 ## Quick installation
 ```
 "install:dev": [
-  "composer require friendsofphp/php-cs-fixer",
+  "composer require --dev friendsofphp/php-cs-fixer",
   "composer require --dev phpstan/phpstan-symfony"
 ]
 ```
