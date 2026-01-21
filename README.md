@@ -4,7 +4,8 @@
 "install:dev": [
   "composer require --dev friendsofphp/php-cs-fixer",
   "composer require --dev phpstan/phpstan-symfony",
-  "composer require --dev rector/rector"
+  "composer require --dev rector/rector",
+  "composer require --dev symfony/test-pack"
 ]
 ```
 
