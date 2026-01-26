@@ -111,9 +111,11 @@ return (new PhpCsFixer\Config())
 ```
 parameters:
     paths:
-        - src
-        - config
-        - migrations
+        - bin/
+        - config/
+        - public/
+        - src/
+        - tests/
 
     level: max
 
